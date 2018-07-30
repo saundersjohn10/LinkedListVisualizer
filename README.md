@@ -7,6 +7,9 @@ Project utilizes:
 - swing GUI (Graphical User Interface)
 - Doubly Linked class
 
+Video showing gui:
+https://drive.google.com/file/d/1uJnmgU50SdX9NwmnUVn4iLVPiNxZmWZQ/view?usp=sharing
+
 Utilizing GUI, this project allows for the visualization and interaction with a Doubly Linked List.  The user can add, remove, and parse through data of the classes String, Integer, Double, and Boolean that all contained in the same linked list.  A linked list meaning that data is contained in nodes with each one having a pointer that points to the next node and doubly linked meaning that the each node also points to its preceeding node.  
 
 Java generics was used in the node and linked list classes, allowing for there to be different types of data inserted into the same list.  The list utilized in the back end is initalized as the type 'object', so theoretically any type of data (for example a collection) could be inserted into a node (but this was not fully utlilized as I was restricted to a textfield line inputed by the user).  However, when the textfield was fetched, it tries to parse the String recieved as an Integer, Double, and Boolean before defaulting to it to saving it as a String (this was done using try, catch blocks and grabbing the exceptions that are thrown).
